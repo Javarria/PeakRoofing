@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    static: {
+        public: 'public',
+      },
+};
 
 export default nextConfig;

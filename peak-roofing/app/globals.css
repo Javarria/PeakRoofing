@@ -13,9 +13,74 @@
     --foreground: #ededed;
   }
 }
+/* These CSS classes are being applied to the h1 tags in the Home.js and About.js components */
+
+@media (max-width: 910px) {
+  .text-4xl {
+    font-size: 3xl;
+  }
+  .md\:text-6xl {
+    font-size: 5xl;
+  }
+}
+
+/* This media query is saying that if the screen size is 740px or less,
+   then any element with the class 'text-3xl' should have a font size of 'xl'
+   and any element with the class 'sm:text-5xl' should have a font size of '2xl'
+
+   So what if you only want one specific tag (like an h1) to have these attributes?
+   You can do this by adding the tag name to the selector like so:
+
+   @media (max-width: 740px) {
+     h1.text-3xl {
+       font-size: xl;
+     }
+     h1.sm\:text-5xl {
+       font-size: 2xl;
+     }
+   }
+*/
+
+@media (max-width: 740px) {
+  h3.text-3xl {
+    font-size: xl;
+  }
+  h3.sm\:text-5xl {
+    font-size: 2xl;
+  }
+}
+
+.container {
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+    max-width: 1600px; /* Adjust as needed for your design */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  
 }
+
+
+
+.rose-gold-section {
+  background: linear-gradient(45deg, #b76e79, #bb9a97, #e4c1c1); /* Rose gold gradient */
+  color: white; /* Set text color to white or any color that contrasts well */
+  font-family: Arial, sans-serif; /* Example font */
+  text-align: center; /* Center text */
+}
+
+
+
+
+
