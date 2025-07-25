@@ -34,7 +34,7 @@ export default function reviews() {
         {/* DIV HOLDING SIX REVIEWS */}
         <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-10 items-center justify-center h-full py-4 pl-4 pr-4">
           {/* FIRST REVIEW  */}
-          <div className="border-2 border-pink-500 rounded-xl p-4 h-10rem w-[100%] shadow-md shadow-black/40">
+          <div className="border-2 border-[#c66e6e] rounded-xl p-4 h-10rem w-[100%] shadow-md shadow-black/40">
             <header className="h-auto w-full rounded-lg flex items-center">
               <Image
                 src="/HappyCustomer.jpeg"
@@ -76,7 +76,7 @@ export default function reviews() {
             </div>
           </div>
           {/* SECOND REVIEW */}
-          <div className="border-2 border-pink-500 rounded-xl p-4 h-10rem w-[100%] shadow-md shadow-black/40">
+          <div className="border-2 border-[#c66e6e] rounded-xl p-4 h-10rem w-[100%] shadow-md shadow-black/40">
             <header className="h-auto w-full rounded-lg flex items-center">
               <Image
                 src="/HappyFamilyCustomer.jpeg"
@@ -112,8 +112,8 @@ export default function reviews() {
               the stages for replacement...
             </div>
           </div>
-          {/* THIRD REVIEW */}
-          <div className="border-2 border-pink-500 rounded-xl p-4 h-11rem w-[100%] shadow-md shadow-black/40">
+          {/* THIRD REVIEW border-[#c66e6e]  */}
+          <div className="border-2 border-[#c66e6e]  rounded-xl p-4 h-11rem w-[100%] shadow-md shadow-black/40">
             <header className="h-auto w-full rounded-lg flex items-center">
               <Image
                 src="/HappyFemaleCustomer.jpeg"
@@ -150,7 +150,7 @@ export default function reviews() {
             </div>
           </div>
           {/* FOURTH REVIEW */}
-          <div className="border-2 border-pink-500 rounded-xl p-4 h-11rem w-[100%] shadow-md shadow-black/40">
+          <div className="border-2 border-[#c66e6e] rounded-xl p-4 h-11rem w-[100%] shadow-md shadow-black/40">
             <header className="h-auto w-full rounded-lg flex items-center">
               <Image
                 src="/HappyCustomerSherlon.png"
@@ -161,9 +161,9 @@ export default function reviews() {
               />
               <div className="ml-2 rounded">
                 <span className="font-black text-2xl text-black text-left">
-                  ERIC H.
+                  SHERLON A.
                 </span>
-                <div className="flex items-center border-black block text-lg text-gray-600 text-left ml-[.1rem]">
+                <div className="flex items-center border-black text-lg text-gray-600 text-left ml-[.1rem]">
                   <img
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAABK0lEQVQYV22RsUvDUBDGfW8REV2EbKK46CBi97oUUVz0b+hikpfdbiVbQToVkhgEERxc1EkcdHAUuruJBTs4ObhIh76kvwst1NAHl+/ed3ffu7uoufFJ03Qry7JTrvvYZp7nWil1jX/p+35X0pR84jg+Au4JLkyKp9BqrTdc1/1SURStcnknuIQNULwAn8Fl+DMEWp7n3RXKqHbkachF2qgGQdCfoV5QKkmSHriONejtXEi4CnBSKvoT5QGq86jWUH0dz1CHuyolW0n+hFzDAmOM9FtW3pVXmOFH2mjj1FBaYaAdpv6dKIZhqB3HeSQm23r6tw2KPgjcgm8UDmnN4B/ja/zDYs+s74CkB9nIjE18k3jDPI0iWY78QWutwd3DtjGNdRFtsucXyRkBPlt7NVoK5VAAAAAASUVORK5CYII="
                     alt="5 star rating"
@@ -187,7 +187,7 @@ export default function reviews() {
             </div>
           </div>
           {/* FIFTH REVIEW */}
-          <div className="border-2 border-pink-500 rounded-xl p-4 h-11rem w-[100%] shadow-md shadow-black/40">
+          <div className="border-2 border-[#c66e6e] rounded-xl p-4 h-11rem w-[100%] shadow-md shadow-black/40">
             <header className="h-auto w-full rounded-lg flex items-center">
               <div
                 style={{
@@ -210,7 +210,7 @@ export default function reviews() {
                 <span className="font-black text-2xl text-black text-left">
                   SIERRA P.
                 </span>
-                <div className="flex items-center block text-lg text-gray-600 text-left ml-[.1rem]">
+                <div className="flex items-center  text-lg text-gray-600 text-left ml-[.1rem]">
                   <img
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAABK0lEQVQYV22RsUvDUBDGfW8REV2EbKK46CBi97oUUVz0b+hikpfdbiVbQToVkhgEERxc1EkcdHAUuruJBTs4ObhIh76kvwst1NAHl+/ed3ffu7uoufFJ03Qry7JTrvvYZp7nWil1jX/p+35X0pR84jg+Au4JLkyKp9BqrTdc1/1SURStcnknuIQNULwAn8Fl+DMEWp7n3RXKqHbkachF2qgGQdCfoV5QKkmSHriONejtXEi4CnBSKvoT5QGq86jWUH0dz1CHuyolW0n+hFzDAmOM9FtW3pVXmOFH2mjj1FBaYaAdpv6dKIZhqB3HeSQm23r6tw2KPgjcgm8UDmnN4B/ja/zDYs+s74CkB9nIjE18k3jDPI0iWY78QWutwd3DtjGNdRFtsucXyRkBPlt7NVoK5VAAAAAASUVORK5CYII="
                     alt="5 star rating"
@@ -234,7 +234,7 @@ export default function reviews() {
             </div>
           </div>
           {/* SIXTH REVIEW */}
-          <div className="border-2 border-pink-500 rounded-xl p-4 h-auto w-[100%] shadow-md shadow-black/40">
+          <div className="border-2 border-[#c66e6e] rounded-xl p-4 h-auto w-[100%] shadow-md shadow-black/40">
             <header className="h-auto w-full rounded-lg flex items-center">
               <div
                 style={{

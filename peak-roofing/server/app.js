@@ -4,9 +4,9 @@ const bodyParser = require("body-parser")
 const nodemailer = require("nodemailer")
 const app = express();
 const port = 8080;
-// TO RUN SERVER => node app.js
+/////////////*************** TO RUN SERVER => node app.js *****************//////////////
 
-// Enable CORS (Cross-Origin Resource Sharing) to allow requests from client-side JavaScript
+// CORS (Cross-Origin Resource Sharing) to allow requests from client-side JavaScript
 // running on a different origin (domain, protocol, or port) than the server.
 // This is necessary because the server and client are running on different ports.
 // The cors middleware will add the necessary Access-Control-Allow-Origin header to the response,

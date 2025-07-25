@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-markdown": "^10.1.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  }
+}
